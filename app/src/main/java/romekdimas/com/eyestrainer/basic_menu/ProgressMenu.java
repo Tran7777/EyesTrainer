@@ -1,13 +1,15 @@
-package romekdimas.com.eyestrainer;
+package romekdimas.com.eyestrainer.basic_menu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainMenu extends AppCompatActivity {
+import romekdimas.com.eyestrainer.R;
+
+public class ProgressMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        setContentView(R.layout.activity_progress_menu);
     }
 }
