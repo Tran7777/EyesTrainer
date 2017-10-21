@@ -11,11 +11,11 @@ import romekdimas.com.eyestrainer.R;
 
 public class MainMenu extends AppCompatActivity {
 
-    Button startExerciseButton;
-    Button progressButton;
-    Button settingsButton;
-    Button aboutProgramButton;
-    TextView mainName;
+    private Button startExerciseButton;
+    private Button progressButton;
+    private Button settingsButton;
+    private Button aboutProgramButton;
+    private TextView mainName;
 
 
     @Override
